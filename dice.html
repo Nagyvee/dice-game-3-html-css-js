@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nigel Dice Game</title>
+    <link rel="stylesheet" href="dice.css">
+</head>
+<body>
+    
+<h1>Guese a winning Dice</h1>
+<div class="container">
+    <h2>Choose a Dice</h2>
+    <div id="winning-dice">
+    <p class="your-choice"></p>
+    <p class="winning-dice"></p>
+</div>
+    <div class="imgs-container">
+        <img src="dice-images/white1.jpeg" alt="white dice img" id="dice-one">
+        <img src="dice-images/red1.jpeg" alt="red dice img" id="dice-two">
+    </div>
+    <div class="btn-cntainer">
+        <button onclick="selectDice('white')">White</button>
+        <button onclick="selectDice('draw')">Draw</button>
+        <button onclick="selectDice('red')">Red</button>
+    </div>
+</div>
+
+    <script src="https://kit.fontawesome.com/2e0f6921f2.js"></script>
+    <script src="dice.js"></script>  
+</body>
+</html>

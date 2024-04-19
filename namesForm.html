@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice gamen(Nigel) </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-on"></div>
+    <h1 class="names-heading">Enter your names to start the game</h1>
+
+    <div class="names-form">
+            <label for="player 1 name">Enter Player 1 name</label><br>
+            <input type="text" required minlength="4" maxlength="10" id="player1-name"> <br>
+            <label for="player 2 name">Enter Player 2 name</label><br>
+            <input type="text" required minlength="4" maxlength="10"  id="player2-name"><br>
+    
+            <button onclick="handleSubmit()">submit</button> 
+
+            <p class="wrong-name"></p>
+    </div>
+
+    <div class="footer">&copy;2024 Done by Nigel.</div>
+    <script src="index.js"></script>
+</body>
+</html>

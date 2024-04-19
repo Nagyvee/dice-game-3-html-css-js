@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice gamen(Nigel) </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="main-body">
+    
+    <h1>Dice Game</h1>
+    <div class="container">
+        <div class="container-1">
+        <h2>Round <span></span></h2>
+        <div class="winner-text">
+        <h3 id="winner-results"></h3>
+    </div>
+    <div class="main">
+        <div>
+            <h4 class="first-player">Payer 1</h4>
+            <img src="images/white6.jpeg" alt="" id="dice-1">
+        </div>
+        <div>
+            <h4  class="second-player">Player 2</h4>
+            <img src="images/red6.jpeg" alt="" id="dice-2">
+        </div>
+    </div>
+        <div class="btn-roll">
+            <button onclick="rollDice()">Roll Dices</button>
+        </div>
+    </div>
+
+    <div class="player-winnings-total">
+        <h2>Games Won</h2>
+        <div id="player-winnings-total"></div>
+    </div>
+   
+
+    <div class="container-2">
+   <h2>Previous Games Results</h2>
+   <div class="view">
+    <p onclick="viewAll()">View All</p>
+    <p onclick="clearAll()">clear Game History</p>
+</div>
+   <div class="container-2-table">
+    <div> <h3>Round</h3></div>
+    <div> <h3>Winner</h3></div>
+    <div> <h3>Results</h3></div>
+   </div>
+    <div class="round">
+    </div>
+</div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>

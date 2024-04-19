@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital@1&family=Handjet&family=Ysabeau+Infant&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Big Shoulders Display', sans-serif;
+    background-image: url(https://images.pexels.com/photos/376368/pexels-photo-376368.jpeg?auto=compress&cs=tinysrgb&w=400);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    }
+
+    h1{
+        font-family: 'Bad Script', cursive;
+        color: red;
+        background-color: rgb(255, 249, 235);
+        border: dashed black;
+        font-size: 1.7em;
+        width: 32%;
+        margin-left: 25%;
+        margin-top: 2em;
+        text-align: center;
+    }
+
+    .container{
+      margin-left: 25%;
+      font-family: 'Times New Roman', Times, serif;
+      background-color: green;
+      padding: 2em;
+      margin-top: 2em;
+      border-radius: 7px;
+      border: none;
+      width: fit-content;
+    }
+
+    h2{
+      margin: 3em;
+      margin-left: 4em;
+      margin-bottom: 1em;
+      margin-top: 1em;
+      background-color: aliceblue;
+      padding: 7px;
+      width: fit-content;
+      border-radius: 5px;
+    }
+
+    img{
+      width: 55px;
+      margin-bottom: 3em;
+      background-color: white;
+      border-radius: 5px;
+    }
+
+    #dice-one{
+      margin-left: 25%;
+      margin-right: 4em;
+    }
+
+    button{
+      margin-left: 2em;
+      width: 95px;
+      height: 38px;
+      cursor: pointer;
+      border: none;
+      border-radius: 5px;
+      background-color: hsl(34, 96%, 71%);
+      font-weight: bold;
+      margin-bottom: 2em;
+    }
+
+    button:hover{
+      background-color: hsl(34, 96%, 81%);
+    }
+
+    button:active{
+      background-color: hsl(34, 96%, 91%);
+    }
+
+    .play-again-btn{
+      margin-left: 35%;
+    }
+
+    #winning-dice {
+      margin-left: 30%;
+      margin-bottom: 3em;
+      color: gold;
+      font-weight: bolder;
+      font-size: 14px;
+      height: 1.5em;
+    }
+
+    .winner-anim{
+      animation: winner;
+      animation-duration: 0.4s;
+    }
+
+    @keyframes winner {
+       25%{
+        background-color: red;
+       }
+       50%{
+        background-color: gold;
+       }
+       75%{
+        background-color: goldenrod;
+       }
+       100%{
+        background-color: greenyellow;
+       }
+    }
